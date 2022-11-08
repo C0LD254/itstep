@@ -1,1 +1,6 @@
-print("new commit")
+a = float(input("Саша"))
+b = float(input("Маша"))
+c = float(input("Миша"))
+d = float(input("Даня"))
+e = float(input("Костя"))
+print('{:.0f} {:.0f} {:.0f} {:.0f} {:.0f}'.format(a, b, c, d, e), sep='\n')
